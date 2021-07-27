@@ -180,11 +180,11 @@ public class fee extends Frame {
         final DefaultListModel<String> li1
             = new DefaultListModel<>();
  
-        li1.addElement("CSE(2, 50, 000)");
-        li1.addElement("ECE(2, 50, 000)");
-        li1.addElement("EEE(2, 50, 000)");
-        li1.addElement("MECH(2, 50, 000)");
-        li1.addElement("CIVIL(2, 50, 000)");
+        li1.addElement("CSE(1, 00, 000)");
+        li1.addElement("ECE(1, 00, 000)");
+        li1.addElement("EEE(1, 00, 000)");
+        li1.addElement("MECH(1, 00, 000)");
+        li1.addElement("CIVIL(1, 00, 000)");
  
         final JList<String> list1
             = new JList<>(li1);
@@ -195,12 +195,12 @@ public class fee extends Frame {
             = new DefaultListModel<>();
  
         li2.addElement(
-            "2 installment(1, 50, 000)");
+            "2 installment( 50, 000)");
         li2.addElement(
-            "3 installment(1, 40, 000)");
+            "3 installment( 40, 000)");
        
         li2.addElement(
-            "bus(40, 000)");
+            "bus(20, 000)");
  
         final JList<String> list2
             = new JList<>(li2);
